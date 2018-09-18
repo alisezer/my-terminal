@@ -7,7 +7,7 @@ This is my prezto and tmux settings. It is based on the original [Prezto Repo](h
 Installing ZSH
 --------------
 
-### Linux
+### Linux Ubuntu
 
 **[Open a terminal window](https://help.ubuntu.com/community/UsingTheTerminal). Copy & paste the following** into the terminal window and **hit `Return`**. You may be prompted to enter your password.
 
@@ -31,6 +31,24 @@ sudo apt-get install zsh
     ```shell
     brew install zsh
     ```
+
+
+Installing TMUX
+---------------
+
+### Linux Ubuntu
+
+```shell
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install tmux
+```
+
+### Mac OS
+
+```shell
+brew install tmux
+```
 
 
 Installing Prezto
