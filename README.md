@@ -20,7 +20,7 @@ version is 4.3.11.
   2. Clone the repository:
 
      ```console
-     git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+     git clone --recursive git@github.com:alisezer/my-terminal.git "${ZDOTDIR:-$HOME}/.my-terminal"
      ```
 
   3. Create a new Zsh configuration by copying the Zsh configuration files
@@ -28,7 +28,7 @@ version is 4.3.11.
 
      ```sh
      setopt EXTENDED_GLOB
-     for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+     for rcfile in "${ZDOTDIR:-$HOME}"/.my-terminal/runcoms/^README.md(.N); do
        ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
      done
      ```
@@ -88,7 +88,7 @@ accompanying README files to learn of what is available.
   3. Load the theme you like in *~/.zpreztorc* then open a new Zsh terminal
      window or tab.
 
-     ![sorin theme][2]  
+     ![sorin theme][2]
      Note that the 'git' module may be required for special symbols to appear, such as those on the right of the above image. Add `'git'` to the list under `zstyle ':prezto:load' pmodule \ ` in your `.zpreztorc` to enable this module.
 ### External Modules
 
