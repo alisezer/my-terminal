@@ -1,7 +1,9 @@
-Tmux and Prezto Configurations
+The Terminal Trio
 ==============================
 
-This is my prezto and tmux settings. It is based on the original [Prezto Repo](https://github.com/sorin-ionescu/prezto).
+You can use this repo to configure your ZSH Tmux and Prezto terminal.
+
+This project is based on the original [Prezto Repo](https://github.com/sorin-ionescu/prezto).
 
 
 Installing ZSH
