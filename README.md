@@ -1,9 +1,8 @@
-Prezto — Instantly Awesome Zsh
+Tmux and Prezto Configurations
 ==============================
 
-Prezto is the configuration framework for [Zsh][1]; it enriches the command line
-interface environment with sane defaults, aliases, functions, auto completion,
-and prompt themes.
+This is my prezto and tmux settings. It is based on the original [Prezto Repo][https://github.com/sorin-ionescu/prezto].
+
 
 Installation
 ------------
