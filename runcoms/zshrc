@@ -11,3 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.my-terminal/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+alias tmux_w4="tmux split-window -p 66 \; split-window -d \; split-window -h \;"
+alias tmux_w5="tmux split-window -p 66 \; split-window -d \; split-window -h \; select-pane -t 0 \; split-window -h \;"
+alias tmux_w6="tmux split-window -h \; split-window -v -p 66 \; split-window -v \; select-pane -t 0 \; split-window -v -p 66 \; split-window -v \;"
