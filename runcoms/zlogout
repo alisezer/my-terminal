@@ -11,7 +11,7 @@
 SAYINGS=(
     "So long and thanks for all the fish.\n  -- Douglas Adams"
     "Good morning! And in case I don't see ya, good afternoon, good evening and goodnight.\n  --Truman Burbank"
-    "Can your code outlive you ? - Ali Sezer"
+    "Can your code outlive you ?\n -- Ali Sezer"
 )
 
 # Print a randomly-chosen message:

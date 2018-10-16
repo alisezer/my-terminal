@@ -65,7 +65,7 @@ Installing Prezto
 2. Clone the repository:
 
     ```console
-    git clone --recursive git@github.com:alisezer/my-terminal.git "${ZDOTDIR:-$HOME}/.my-terminal"
+    git clone --recursive https://github.com/alisezer/my-terminal.git "${ZDOTDIR:-$HOME}/.my-terminal"
     ```
 
 3. Create a new Zsh configuration by copying the Zsh configuration files
